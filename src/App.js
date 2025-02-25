@@ -1,4 +1,4 @@
-import TextAnimation from "./components/TextAnimaton";
+import TextAnimation from "./components/TextAnimation/TextAnimaton";
 function App() {
   return (
     <div className="App">
