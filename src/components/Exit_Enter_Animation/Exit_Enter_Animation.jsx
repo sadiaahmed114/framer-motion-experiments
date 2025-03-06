@@ -4,17 +4,15 @@ import {motion , AnimatePresence} from 'framer-motion';
 
 function Exit_Enter_Animation() {
     const[show , setShow] = useState(true)
-  return (
-    <div>
-        style ={{
+return (
+        <div style ={{
             display : "flex",
             gap: "10px",
-            alignItem: "center",
-            flexDirection: "column"
-        }}
+            alignItems: "center",
+            flexDirection: "column",
+        }}>
 
-        <h1 style={{marginTop :"30px"}}>        <h1 style={{marginTop :"30px"}}>Exit_Enter_Animation</h1>
-        </h1>
+        <h1 style={{marginTop :"30px"}}>Exit_Enter_Animation</h1>
         <AnimatePresence>
             {show && <motion.div
                 style = {{width : "100px" , height: "100px" , backgroundColor : "orange"}}
@@ -22,7 +20,7 @@ function Exit_Enter_Animation() {
                 animate = {{opacity : 1, x : 100}}
                 exit = {{opacity : 0 , x : -150}}
                 transition = {{
-                    duration :"1"
+                    duration :1
                 }}
             >
 
@@ -33,7 +31,7 @@ function Exit_Enter_Animation() {
 
         </button>
     </div>
-  )
+)
 }
 
 export default Exit_Enter_Animation
