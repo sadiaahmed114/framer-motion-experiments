@@ -1,13 +1,18 @@
-import TextAnimation from "./components/TextAnimation/TextAnimaton";
-import Exit_Enter_Animation from "./components/Exit_Enter_Animation/Exit_Enter_Animation";
-import Drag_Animation from "./components/Drag_Animation/Drag_Animation"; 
+import TextAnimation from "./components/textanimation/TextAnimaton";
+import ExitEnterAnimation from "./components/exit_enter_animation/ExitEnterAnimation";
+import DragAnimation from "./components/drag_animation/DragAnimation";
+import HoverAndTapAnimations from "./components/hover and tap animation/HoverAndTapAnimations";
+import ScrollAnimation from "./components/react_scroll_animations/ReactScrollAnimations"
+
 function App() {
   return (
-    <div className="App">
+    <div>
       {/* <h1>Framer Motion Experiments</h1> */}
       <TextAnimation />
-      <Exit_Enter_Animation/>
-      <Drag_Animation/>
+      <ExitEnterAnimation/>
+      <DragAnimation/>
+      <HoverAndTapAnimations/>
+      <ScrollAnimation/>
     </div>
   );
 }

@@ -10,6 +10,7 @@ return (
             gap: "10px",
             alignItems: "center",
             flexDirection: "column",
+            backgroundColor : "blueviolet"
         }}>
 
         <h1 style={{marginTop :"30px"}}>Exit_Enter_Animation</h1>
@@ -27,7 +28,7 @@ return (
             </motion.div>
             }
         </AnimatePresence>
-        <button onClick ={() => setShow(!show)} style={{padding : "12px 18px"}} > {show?"Remove Box" : "Add Box" }
+        <button onClick ={() => setShow(!show)} style={{padding : "12px 18px" , backgroundColor : "gray" , marginBottom: "100px"}} > {show?"Remove Box" : "Add Box" }
 
         </button>
     </div>
