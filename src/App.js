@@ -5,6 +5,7 @@ import HoverAndTapAnimations from "./components/hover and tap animation/HoverAnd
 import ScrollAnimation from "./components/scroll_animations/ScrollAnimations"
 import TriggerScroll from "./components/trigger_scroll_animation/TriggerScroll";
 // import PageTransition from "./components/page_transition";
+import ScrollAnimation from "./components/scroll_animations/ScrollAnimations";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './components/page_transition/Home'
 import About from './components/page_transition/About'
@@ -34,6 +35,9 @@ function App() {
             </Routes>  
         {/* </BrowserRouter> */}
       </div> 
+      <div> 
+      <ScrollAnimation/>
+      </div>
     </div>
     </BrowserRouter>
   );
