@@ -12,7 +12,7 @@ return (
             <p className='text-lg'>Hey! I'm the First Section</p>
         </motion.div>
         <motion.div className='w-full bg-vlue-200 h-screen p-40'>
-            <h1 className='text-4xl font-bold '>Section Two</h1>
+            <h1 className='text-3xl font-bold '>Section Two</h1>
             <p className='text-lg'>Hey! I'm the Second Section</p>
         </motion.div>
         <motion.div className='w-full bg-green h-screen p-40'>
