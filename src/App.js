@@ -9,6 +9,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './components/page_transition/Home'
 import About from './components/page_transition/About'
 import Nav from './components/page_transition/Nav'
+import MotionBox from "./components/MotionBox";
+import Button from "./components/Button";
+import DragCard from "./components/DragCard";
+import StaggerList from "./components/StaggerList";
 
 function App() {
   return (
@@ -37,6 +41,13 @@ function App() {
       <div> 
       <RevealScrollAnimation/>
       </div>
+    </div>
+
+    <div>
+      <MotionBox />
+      <Button />
+      <DragCard />
+      <StaggerList />
     </div>
     </BrowserRouter>
   );
