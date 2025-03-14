@@ -4,8 +4,7 @@ import DragAnimation from "./components/drag_animation/DragAnimation";
 import HoverAndTapAnimations from "./components/hover and tap animation/HoverAndTapAnimations";
 import ScrollAnimation from "./components/scroll_animations/ScrollAnimations"
 import TriggerScroll from "./components/trigger_scroll_animation/TriggerScroll";
-// import PageTransition from "./components/page_transition";
-import ScrollAnimation from "./components/scroll_animations/ScrollAnimations";
+import RevealScrollAnimation from "./components/scroll_reveal_animation/ScrollRevealAnimation";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './components/page_transition/Home'
 import About from './components/page_transition/About'
@@ -36,7 +35,7 @@ function App() {
         {/* </BrowserRouter> */}
       </div> 
       <div> 
-      <ScrollAnimation/>
+      <RevealScrollAnimation/>
       </div>
     </div>
     </BrowserRouter>
